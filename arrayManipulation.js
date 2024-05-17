@@ -1,3 +1,5 @@
+//First task
+
 function processArray(arr) {
     let result = [];
     
@@ -14,7 +16,7 @@ function processArray(arr) {
 const processedArray = processArray(inputArray);
 console.log(processedArray);
 
-
+//Second task
 function formatArrayStrings(strings, numbers) {
     if (strings.length !== numbers.length) {
         throw new Error("Arrays must have the same length.");
